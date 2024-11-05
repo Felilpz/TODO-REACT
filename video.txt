@@ -1,0 +1,8 @@
+
+https://www.youtube.com/watch?v=qbQ8wzJ6DrQ
+
+8 43
+- CRUD;
+- REACT.
+- EXPRESS.
+- POSTGRES
