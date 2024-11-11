@@ -1,8 +1,10 @@
 const express = require('express');
-const todoRoutes = require('./todos.routes')
+const todoRoutes = require('./routes')
+
 const app = express();
 
 app.use(express.json());
+app.use(todoRoutes)
 
 app.get('/health', (req, res) => {
     return res.json('uping')
